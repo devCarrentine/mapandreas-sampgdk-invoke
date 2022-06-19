@@ -89,6 +89,6 @@ bool mapandreas::setZFor2dCoord(
   const float z)
 {
   return sampgdkInvokeNative<bool>(
-    "MapAndreas_FindAverageZ", "fff",
+    "MapAndreas_SetZ_For2DCoord", "fff",
     x, y, z);
 }
