@@ -70,4 +70,4 @@ You can potentially use MapAndreas plugin to determine the ground position aroun
 - ### Doesn't compile, gives an error.
 - Look at the second line of mapandreas.cpp. Make sure you put the path to sampgdk in your compilation settings. Otherwise change this path to your own.
 - ### It compiles, but it doesn't work. What to do?
-- Make sure that you have loaded the mapandreas plugin into the plugins folder and connected it in the server settings. Check the filterscripts folder, there should be a file SAfull.hmap. Otherwise, download it from the official repository.
+- Make sure that you have loaded the mapandreas plugin into the plugins folder and connected it in the server settings. Check the scriptfiles folder, there should be a file SAfull.hmap. Otherwise, download it from the official repository.
